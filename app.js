@@ -51,3 +51,46 @@ function pesquisar(){
 
     section.innerHTML = resultados;
 }
+
+function pesquisarTodos() {
+    let section = document.getElementById("resultados-pesquisa");
+    let resultados = ""; 
+
+    for (let dado of dados) {
+        let classeExtinto = dado.extincao ? "extinto" : "";
+        resultados += `
+            <div class="item-resultado ${classeExtinto}">
+                <h2>
+                    <a href="${dado.link}" target="_blank">${dado.nome} <span class="txt_especie">${dado.especie}</span></a>
+                </h2>
+                <p class="descricao-meta">${dado.descricao}</p>
+                <a href="${dado.link}" target="_blank">Mais Informações</a>
+                <p>Local: ${dado.local}</p>
+            </div>
+        `;
+    }
+
+    section.innerHTML = resultados; 
+}
+
+function RiscoExtincao() {
+    let section = document.getElementById("resultados-pesquisa");
+    let resultados = ""; 
+
+    for (let dado of dados) {
+        if (dado.extincao) {
+            resultados += `
+                <div class="item-resultado extinto">
+                    <h2>
+                        <a href="${dado.link}" target="_blank">${dado.nome} (Risco de Extinção) <span class="txt_especie">${dado.especie}</span></a>
+                    </h2>
+                    <p class="descricao-meta">${dado.descricao}</p>
+                    <a href="${dado.link}" target="_blank">Mais Informações</a>
+                    <p>Local: ${dado.local}</p>
+                </div>
+            `;
+        }
+    }
+
+    section.innerHTML = resultados;
+}

@@ -12,8 +12,14 @@
     </header>
     <main>
         <section >
-            <input class="campo-pesquisa" type="text" placeholder="Digite o nome do animal" id="campo-pesquisa">
-            <button onclick="pesquisar()">Pesquisar</button>
+            <div>
+                <input class="campo-pesquisa" type="text" placeholder="Digite o nome do animal" id="campo-pesquisa"> 
+                <button onclick="pesquisar()">Pesquisar</button>
+            </div>
+            <div class="botoes-ver-animais">
+                <button onclick="pesquisarTodos()">Todos</button>
+                <button onclick="RiscoExtincao()" class="extincao">Risco de Extinção</button>
+            </div>
         </section>
         <section class="resultados-pesquisa"
             id="resultados-pesquisa">

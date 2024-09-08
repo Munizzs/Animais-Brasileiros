@@ -55,3 +55,6 @@ O site é desenvolvido em HTML, CSS e JavaScript e inclui as seguintes funcional
 - Quati
 - Ariranha
 - Perereca-de-Folhagem
+
+## Deploy
+https://animais-brasileiros.vercel.app

@@ -214,5 +214,158 @@ let dados = [
         local: "Amazônia",
         tags: "Perereca de Folhagem Anfíbio Verde Noturna Insetos",
         extincao: false
+    },
+    {
+        nome: "Sucuri",
+        especie: "Eunectes murinus",
+        descricao: "A sucuri, também conhecida como anaconda, é uma das maiores serpentes do mundo, encontrada nos rios e pântanos da Amazônia. Conhecida por sua força e por ser uma excelente nadadora, pode atingir até 9 metros de comprimento.",
+        link: "https://www.infoescola.com/animais/sucuri/",
+        local: "Amazônia",
+        tags: "Sucuri Anaconda Serpente Nadadora Pântano",
+        extincao: false
+    },
+    {
+        nome: "Papagaio-de-Cara-Roxa",
+        especie: "Amazona brasiliensis",
+        descricao: "O papagaio-de-cara-roxa é uma ave psitaciforme endêmica do litoral sul e sudeste do Brasil. É conhecido pela plumagem verde e pela face roxa que lhe dá o nome. A espécie está ameaçada de extinção devido à perda de habitat.",
+        link: "https://www.wikiaves.com.br/wiki/papagaio-de-cara-roxa",
+        local: "Mata Atlântica",
+        tags: "Papagaio Cara Roxa Psitaciforme Mata Atlântica",
+        extincao: true
+    },
+    {
+        nome: "Tatuzinho-de-Jardim",
+        especie: "Armadillidiidae",
+        descricao: "O tatuzinho-de-jardim é um crustáceo terrestre encontrado em jardins e florestas do Brasil. Conhecido por sua habilidade de enrolar-se em uma bola quando ameaçado, desempenha um papel importante na decomposição de matéria orgânica.",
+        link: "https://pt.wikipedia.org/wiki/Armadillidiidae",
+        local: "Regiões Urbanas",
+        tags: "Tatuzinho Jardim Crustáceo Terrestre Decomposição",
+        extincao: false
+    },
+    {
+        nome: "Cascavel",
+        especie: "Crotalus durissus",
+        descricao: "A cascavel é uma serpente venenosa encontrada em várias regiões do Brasil. Reconhecida por seu chocalho na cauda, é uma das cobras mais temidas do país, mas também exerce um importante papel no controle de populações de roedores.",
+        link: "https://www.infoescola.com/animais/cascavel/",
+        local: "Cerrado",
+        tags: "Cascavel Serpente Venenosa Chocalho Cauda",
+        extincao: false
+    },
+    {
+        nome: "Sapo-cururu",
+        especie: "Rhinella marina",
+        descricao: "O sapo-cururu é um anfíbio amplamente distribuído no Brasil, conhecido por seu grande porte e por ser venenoso. Desempenha um papel importante no controle de insetos, mas também é temido por seu veneno potente.",
+        link: "https://www.infoescola.com/animais/sapo-cururu/",
+        local: "Pantanal",
+        tags: "Sapo Cururu Anfíbio Venenoso Controle Insetos",
+        extincao: false
+    },
+    {
+        nome: "Jararacuçu",
+        especie: "Bothrops jararacussu",
+        descricao: "A jararacuçu é uma serpente venenosa da família Viperidae, encontrada principalmente na Mata Atlântica. É uma das maiores serpentes do gênero Bothrops e possui um veneno altamente tóxico.",
+        link: "https://www.infoescola.com/animais/jararacucu/",
+        local: "Mata Atlântica",
+        tags: "Jararacuçu Serpente Venenosa Bothrops Tóxico",
+        extincao: false
+    },
+    {
+        nome: "Uirapuru",
+        especie: "Cyphorhinus arada",
+        descricao: "O uirapuru é uma pequena ave encontrada na Amazônia, famosa por seu canto melodioso e complexo. É uma espécie muito reverenciada em lendas e folclores brasileiros, sendo considerada um símbolo de pureza e amor.",
+        link: "https://www.wikiaves.com.br/wiki/uirapuru",
+        local: "Amazônia",
+        tags: "Uirapuru Ave Canto Melodioso Amazônia Folclore",
+        extincao: false
+    },
+    {
+        nome: "Aranha-armadeira",
+        especie: "Phoneutria",
+        descricao: "A aranha-armadeira é uma das aranhas mais venenosas do mundo, encontrada em várias regiões do Brasil. É conhecida por sua agressividade e por ser responsável por um grande número de acidentes com picadas.",
+        link: "https://www.infoescola.com/animais/aranha-armadeira/",
+        local: "Florestas e Regiões Urbanas",
+        tags: "Aranha Armadeira Venenosa Agressiva Acidentes",
+        extincao: false
+    },
+    {
+        nome: "Morcego-Vampiro",
+        especie: "Desmodus rotundus",
+        descricao: "O morcego-vampiro é uma espécie de morcego nativa do Brasil, conhecida por se alimentar de sangue. Apesar de seu nome assustador, é um importante controle biológico de pragas e suas saliva é estudada para fins medicinais.",
+        link: "https://www.infoescola.com/animais/morcego-vampiro/",
+        local: "Mata Atlântica",
+        tags: "Morcego Vampiro Hematófago Controle Biológico",
+        extincao: false
+    },
+    {
+        nome: "Bicho-Preguiça-de-Bentinho",
+        especie: "Bradypus torquatus",
+        descricao: "O bicho-preguiça-de-bentinho é uma espécie de preguiça de três dedos encontrada na Mata Atlântica. É conhecido por seu comportamento lento e arborícola, e está ameaçado de extinção devido à perda de habitat.",
+        link: "https://www.infoescola.com/animais/bicho-preguica/",
+        local: "Mata Atlântica",
+        tags: "Bicho Preguiça Bentinho Arborícola Mata Atlântica",
+        extincao: true
+    },
+    {
+        nome: "Jacaré-Açu",
+        especie: "Melanosuchus niger",
+        descricao: "O jacaré-açu é o maior réptil da América do Sul, encontrado em rios da Amazônia. Este predador de topo é conhecido por sua força e tamanho impressionantes, podendo atingir até seis metros de comprimento.",
+        link: "https://www.infoescola.com/animais/jacare-acu/",
+        local: "Amazônia",
+        tags: "Jacaré Açu Réptil Predador Amazônia",
+        extincao: true
+    },
+    {
+        nome: "Guará",
+        especie: "Eudocimus ruber",
+        descricao: "O guará é uma ave aquática conhecida por sua plumagem vermelha vibrante. Habita regiões costeiras e manguezais do norte do Brasil e é uma das aves mais emblemáticas do país.",
+        link: "https://www.infoescola.com/animais/guara/",
+        local: "Regiões Costeiras",
+        tags: "Guará Ave Aquática Vermelha Manguezais",
+        extincao: false
+    },
+    {
+        nome: "Jacu",
+        especie: "Penelope",
+        descricao: "O jacu é uma ave galiforme encontrada em várias regiões do Brasil, especialmente em florestas densas. É uma espécie caçada por sua carne e está ameaçada de extinção em algumas regiões devido à caça predatória.",
+        link: "https://www.infoescola.com/animais/jacu/",
+        local: "Mata Atlântica",
+        tags: "Jacu Ave Galiforme Florestas Caça Predatória",
+        extincao: true
+    },
+    {
+        nome: "Gambá",
+        especie: "Didelphis marsupialis",
+        descricao: "O gambá é um mamífero marsupial encontrado em várias regiões do Brasil. É conhecido por sua capacidade de exalar um odor forte quando ameaçado e por sua resistência a venenos de cobras.",
+        link: "https://www.infoescola.com/animais/gamba/",
+        local: "Florestas e Áreas Urbanas",
+        tags: "Gambá Mamífero Marsupial Odor Forte",
+        extincao: false
+    },
+    {
+        nome: "Arara-vermelha",
+        especie: "Ara chloropterus",
+        descricao: "A arara-vermelha é uma ave psitaciforme encontrada nas florestas tropicais do Brasil. Conhecida por sua plumagem vermelha vibrante e por ser uma das maiores espécies de araras, está ameaçada de extinção devido à caça e ao tráfico ilegal.",
+        link: "https://www.infoescola.com/animais/arara-vermelha/",
+        local: "Amazônia",
+        tags: "Arara Vermelha Psitaciforme Tráfico Ilegal",
+        extincao: true
+    },
+    {
+        nome: "Cutia",
+        especie: "Dasyprocta",
+        descricao: "A cutia é um roedor nativo do Brasil, encontrado em florestas e áreas abertas. Conhecida por sua habilidade de enterrar alimentos para consumo futuro, desempenha um papel importante na dispersão de sementes.",
+        link: "https://www.infoescola.com/animais/cutia/",
+        local: "Florestas",
+        tags: "Cutia Roedor Florestas Dispersão Sementes",
+        extincao: false
+    },
+    {
+        nome: "Coruja-buraqueira",
+        especie: "Athene cunicularia",
+        descricao: "A coruja-buraqueira é uma ave de rapina encontrada em campos abertos e savanas do Brasil. Recebe esse nome por sua preferência em fazer ninhos em buracos no solo, em vez de em árvores como a maioria das corujas.",
+        link: "https://www.infoescola.com/animais/coruja-buraqueira/",
+        local: "Cerrado",
+        tags: "Coruja Buraqueira Ave Rapina Ninhal Solo",
+        extincao: false
     }
 ];

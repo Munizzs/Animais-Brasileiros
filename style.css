@@ -129,7 +129,7 @@ section button:hover {
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #dbdedf; /* Cor de fundo do rodapé */
+    background-color: #dbdedf6b; /* Cor de fundo do rodapé */
     color: #45474B; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
